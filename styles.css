@@ -274,6 +274,7 @@ margin-top:10px;
 .service-subcategory,
 .project-description {
     margin: 25px;
+    text-align:justify;
 }
 
 .visual, .project-image {
