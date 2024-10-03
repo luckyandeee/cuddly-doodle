@@ -1,3 +1,10 @@
+window.addEventListener('load', function() {
+    // Hide the preloader and show the main content
+    document.getElementById('preloader').style.display = 'none';
+    document.getElementById('main-content').style.display = 'block';
+});
+
+
 $(document).ready(function() {
     let isScrolling;
     const navbar = $('.navbar-menu');
