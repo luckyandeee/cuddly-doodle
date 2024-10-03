@@ -100,7 +100,7 @@ h3,h5 {
 
 /* Paragraph Styles */
 p {
-    text-align: justify; /* Justify text */
+    text-align: center; /* Justify text */
     margin: 0 15px 0 15px; /* Remove default margin */
     line-height: 1.6; /* Improved line height for readability */
 }
@@ -258,7 +258,7 @@ header {
 
 
 /* Lead Text */
-.lead {
+.leadd {
     font-family: 'Roboto', sans-serif; /* Body text font */
     font-size: 1rem;
     color: #495057; /* Dark text */
