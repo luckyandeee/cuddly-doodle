@@ -100,7 +100,7 @@ h3,h5 {
 
 /* Paragraph Styles */
 p {
-    text-align: center; /* Justify text */
+    /* Justify text */
     margin: 0 15px 0 15px; /* Remove default margin */
     line-height: 1.6; /* Improved line height for readability */
 }
