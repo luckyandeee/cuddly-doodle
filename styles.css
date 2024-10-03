@@ -38,6 +38,7 @@ padding:0;
     background-size: cover; /* Cover the entire area */
     color: #4B4B4B; /* Default text color */
     /* Set default font */
+    text-align:center;
 }
 
 
