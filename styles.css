@@ -264,6 +264,7 @@ header {
     color: #495057; /* Dark text */
     margin-bottom: 30px;
     padding:5px 20px;
+    text-align:justify;
 }
 
 /* Service Section */
