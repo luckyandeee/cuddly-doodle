@@ -45,7 +45,6 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    background-color: rgba(218, 165, 32, 0.2);
     gap: 2px;
 }
 
@@ -69,20 +68,20 @@ body {
 /* Headings */
 h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(24px, 5vw + 16px, 32px); /* Responsive font size */
-    color: rgba(211, 211, 211, 1); /* Silver */
+    font-size: clamp(16px, 5vw + 16px, 32px); /* Responsive font size */
+    color: rgba(265,165,20, 1); /* Silver */
     margin: 20px 10px;
 }
 
 .subtitle {
     font-family: 'Open Sans', sans-serif;
-    font-size: clamp(18px, 4vw + 12px, 24px); /* Responsive font size */
-    color: rgba(200, 200, 200, 1); /* Lighter silver */
+    font-size: clamp(12px, 4vw + 12px, 24px); /* Responsive font size */
+    color: rgba(265,165,80, 1); /* Lighter silver */
     margin: 15px;
 }
 
 h3, h5 {
-    color: rgba(192, 192, 192, 1); /* Silver color */
+    color: rgba(265,165,40, 1); /* Silver color */
     text-align: center;
 }
 
@@ -256,13 +255,13 @@ header {
 .project-description {
     margin: 25px;
     text-align: justify;
-    color: rgba(211, 211, 211, 0.9); /* Light silver */
+    color: rgba(265, 165, 211, 0.9); /* Light silver */
 }
 
 .visual, .project-image {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-content: center;
 }
 
@@ -285,7 +284,7 @@ header {
 
 .contact-title {
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(24px, 5vw + 16px, 32px); /* Responsive font size */
+    font-size: clamp(16px, 5vw + 16px, 32px); /* Responsive font size */
     color: rgba(211, 211, 211, 1); /* Silver */
     margin-bottom: 40px;
 }
