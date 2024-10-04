@@ -50,7 +50,7 @@ body {
 
 .border-image {
     height: 40px;
-    mix-blend-mode: multiply; /* Maintain aspect ratio */
+    /* Maintain aspect ratio */
 }
 
 .border-left {
