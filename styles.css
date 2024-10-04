@@ -469,3 +469,14 @@ margin:20px;
         font-size: 1.5rem;
         cursor: pointer;
     }
+
+  .fade-element {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .fade-element.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
